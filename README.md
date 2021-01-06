@@ -2,7 +2,7 @@
 
 ## Search for Movies and TV Shows. Bookmark and Rate your favorite shows. Watch exciting trailers
 
-# 🌐 Live @ https://moviezone.okereke.dev/
+# 🌐 Live @ https://movie.okereke.dev/
 
 ## Copyright (c) 2021 Okereke Chinweotito
 
