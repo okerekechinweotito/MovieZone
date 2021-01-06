@@ -1,0 +1,124 @@
+:root {
+    --main-color: #e43f5a;
+    --main-color-2: rgb(196, 44, 70);
+    --main-dark: #1b1b2f;
+    --main-dark-2: rgba(27, 27, 47, 0.8);
+    --main-dark-3: rgba(27, 27, 47, 0.6);
+    --main-dark-4: rgba(27, 27, 47, 0.5);
+    --main-dark-6: rgba(27, 27, 47, 0.3);
+    --main-dark-5: rgb(19, 19, 27);
+    --main-mid: rgb(31, 64, 104);
+    --main-mid-2: rgba(31, 64, 104, 0.822);
+    --contentBg: rgba(0, 0, 0, 0.8);
+    --loader-speed: 1.5s ease-in-out infinite;
+    --moviedb-gradient: linear-gradient(30deg,#0d253f, #01b4e4, #01b4e4);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    transition: 300ms;
+}
+
+html {
+    font-size: 18px;
+}
+body {
+    box-sizing: border-box;
+}
+
+/* 
+ cp: "450px",
+    sm: "600px",
+    md: "800px",
+    lg: "1200px",
+ */
+
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 95%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--main-dark);
+    color: white;
+}
+
+::-webkit-scrollbar {
+    position: absolute;
+    background: var(--main-mid);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 1rem;
+}
+
+button {
+    border: none;
+    background: none;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    font-size: inherit;
+    font-family: inherit;
+    border: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--main-color);
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    transform: scale(1.2);
+}
+
+.swiper-scrollbar {
+    background: var(--main-mid-2);
+}
+.swiper-scrollbar-drag {
+    background: var(--main-color);
+}
+
+.swiper-pagination-bullet {
+    color: white;
+    background-color: white;
+}
+.swiper-pagination-bullet-active {
+    color: var(--main-color);
+    background-color: var(--main-color);
+}

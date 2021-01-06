@@ -1,0 +1,16 @@
+
+{
+    "short_name": "MovieZone",
+    "name": "MovieZone - Search for Movies and TV Shows",
+    "icons": [
+      {
+        "src": "/images/icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
